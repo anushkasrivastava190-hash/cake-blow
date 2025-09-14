@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const cake = document.querySelector(".cake");
   const candleCountDisplay = document.getElementById("candleCount");
-  let candles = [];
+  let candles = 6;
   let audioContext;
   let analyser;
   let microphone;
